@@ -1,2 +1,4 @@
+#envairomen
 venv/
-/pywhatkit_dbs.txt
+*.txt
+
