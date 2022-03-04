@@ -10,6 +10,3 @@ def solicitaRuta():
 def dataFrame(ruta):
     data = pd.read_excel(ruta)
     return data
-
-
-print(solicitaRuta().__doc__)

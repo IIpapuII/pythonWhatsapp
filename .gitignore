@@ -1,5 +1,7 @@
 #envairomen
 venv/
-*.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/ 
+#Archivos no subibles
+PyWhatKit_DB.txt

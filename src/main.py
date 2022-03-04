@@ -1,13 +1,14 @@
 import scripts.contro_cvc as a
 import scripts.send_whatsapp as t
 
-ruta = "./doc/contacto.xlsx"
+#definir ruta para cada equipo
+ruta = "../doc/contacto.xlsx"
 
 def run():
     print('enviar whatsapp de forma masiva')
 
     #ingresar la ruta del archivo
-    print( "1- mesaje simple\n2-mensaje con imagen")
+    print( "1- mesaje simple\n2-mensaje con imagen \n 3-Salir")
     valor = int(input('Ingrese valor :'))
     data = a.dataFrame(ruta)
     if (valor ==1):
